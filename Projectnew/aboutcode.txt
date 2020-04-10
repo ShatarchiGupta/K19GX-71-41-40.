@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About</title>
+	<style type="text/css">
+		.header{
+			text-align: center;
+			font-family: 'Girassol', cursive;
+			color: #4F200C;
+		}
+		.nav{
+			display: inline-block;
+			float: right;
+			margin-right: 80px;
+			font-size: 20px;
+			font-family: 'Gotu', sans-serif;
+			color: #07A692;
+		}
+		hr{
+            border: dotted #424B4B;
+            width:4%;
+            border-width: 10px;
+            border-bottom: none;
+        }
+        .trendingbox{
+        	text-align: center;
+        	border: 1px solid black;
+        	margin-left: 10px;
+        	margin-right: 1250px;
+        	margin-top: 50px;
+        	display: inline-block;
+        }
+        .trending{
+        	display: inline;
+        	padding: 2px;
+        	font-family: 'Alegreya', serif;
+        	padding: 5px;
+        	color: #7D0139;
+        }
+        .trendingitems{
+        	text-decoration: none;
+        	display: inline;
+        	font-family: 'Lobster', cursive;
+        	padding: 5px;
+        	color: #256088;
+        }
+        .movie{
+        	float: right;
+        	padding: 20px;
+        	width: 15%;
+        	height: 250px;
+        	margin-top: -280px;
+        	margin-right: 100px;
+        }
+        .container{
+        	margin-left: 30px;
+        	margin-right: 50px;
+        	margin-top: 50px;
+        }
+        .subhead{
+        	font-family: 'Source Sans Pro', sans-serif;
+        	color: #0A9CAB;
+        }
+        .content{
+        	font-family: 'IM Fell French Canon SC', serif;
+        	color: #0F8228;
+        }
+        .data{
+        	font-family: 'Lobster', cursive;
+        	color: #C9B316;
+        }
+	</style>
+</head>
+<body  background="backgroundimage.jpg">
+	<h1 class="header">Book Movie Shows</h1>
+	<a href="/Projectnew/contactus.html"><h3 class="nav">Contact Us</h3></a>
+	<a href="/Projectnew/about.html"><h3 class="nav">About</h3></a>
+	<a href="/Projectnew/Project.html#"><h3 class="nav">Home</h3></a>
+	<div class="container">
+	<h2 class="subhead">About Us</h2>
+	<h3 class="content">StartUp Name: Book Movie Shows</h3>
+	<h3 class="content">Headquaters: Phagwara,Punjab</h3>
+	<h3 class="content">Founder: Satarchi Gupta</h3>
+	<h3 class="data">Currently, the company is India’s largest entertainment ticketing platform. Book Movie Shows started out in 2020 as a software re-seller for movie theaters and converted into a platform catering to cloud-based events, movies, sports, and plays booking. BookMyShow is known by the name of its parent company, Bigtree Entertainment Pvt. Ltd.</h3>
+	<h3 class="data">It operates in 5 countries with more than 30 million customers.  In sixteen years, BookMyShow has been through a roller-coaster ride, seeing all kinds of crests and troughs.It managed to sail through tough times and emerged winner in the end.</h3>
+    </div>
+	<hr>
+<div>
+	<div class="trendingbox">
+		<h3 class="trending">TRENDING SEARCHES</h3>
+		<a class="trendingitems" href="/Projectnew/movie3.html"><h4>The Pursuit of Happyness</h4></a>
+		<a class="trendingitems" href="/Projectnew/movie2.html"><h4>Interstellar</h4></a>
+		<a class="trendingitems" href="/Projectnew/movie1.html"><h4>The Shawshank Redemption</h4></a>
+	</div>
+	<a href="/Projectnew/movie1.html"><img class="movie" src="movie1.jpg"></a>
+	<a href="/Projectnew/movie2.html"><img class="movie" src="movie2.jpg"></a>
+	<a href="/Projectnew/movie3.html"><img class="movie" src="movie3.jpg"></a>
+</div>
+</body>
+</html>
